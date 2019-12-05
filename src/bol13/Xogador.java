@@ -49,7 +49,7 @@ public class Xogador extends Seleccion {
 
     @Override
     public String toString() {
-        return toString()+ "dorsal=" + dorsal + ", demarcacion=" + demarcacion;
+        return super.toString()+ "dorsal=" + dorsal + ", demarcacion=" + demarcacion;
     }
 
     @Override

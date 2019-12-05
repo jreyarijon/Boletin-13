@@ -63,13 +63,10 @@ public class Seleccion {
     }
 
     public void concentrarse() {
-        System.out.println("concentrarse a seleccion");
+        System.out.println("concentrase a seleccion");
     }
 
-    /**
-     *
-     * @return
-     */
+   
     @Override
     public String toString() {
         return id + ", " + nome + " " + apelido + ", " + edade+" ";

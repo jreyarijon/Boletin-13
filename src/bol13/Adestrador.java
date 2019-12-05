@@ -39,7 +39,7 @@ public class Adestrador extends Seleccion {
 
     @Override
     public String toString() {
-        return  toString()+" idFederacion = " + idFederacion;
+        return  super.toString()+" idFederacion = " + idFederacion;
     }
 
     @Override
